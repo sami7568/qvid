@@ -6,12 +6,14 @@ class AdHelper{
 //banner
   static String get bannerAdUnitId{
     if (Platform.isAndroid) {
-      return "ca-app-pub-6000720254274281/4898622826";
+      //test unit ids
       //return "ca-app-pub-3940256099942544/6300978111";
+      return "ca-app-pub-6000720254274281/4898622826";
     }
     else if (Platform.isIOS) {
-      return "ca-app-pub-3940256099942544/2934735716";
-     // return "ca-app-pub-8926875438170318/3098177725";
+      //test unit ids
+     // return "ca-app-pub-3940256099942544/2934735716";
+      return "ca-app-pub-6000720254274281/6185136371";
     }
     else{
       throw UnsupportedError("Unsupported platform");
@@ -21,12 +23,15 @@ class AdHelper{
   //interstital
   static String get InterstitialAdUnitId{
     if (Platform.isAndroid) {
-      return "ca-app-pub-6000720254274281/4323907755";
+      //test unit ids
       //return "ca-app-pub-3940256099942544/1033173712";
+      return "ca-app-pub-6000720254274281/4323907755";
+
     }
     else if (Platform.isIOS) {
-      return "ca-app-pub-3940256099942544/4411468910";
-      //return "ca-app-pub-8926875438170318/2056558794";
+      //test unit ids
+      return "ca-app-pub-6000720254274281/1039307820";
+      //return "ca-app-pub-3940256099942544/4411468910";
     }
     else{
       throw UnsupportedError("Unsupported platform");
@@ -36,13 +41,15 @@ class AdHelper{
   //reward
   static String get rewardUnitId{
     if (Platform.isAndroid) {
-      return "  ca-app-pub-6000720254274281/9384662740";
-      //return "  ca-app-pub-3940256099942544/5224354917";
+      //test unit ids
+      //return "ca-app-pub-3940256099942544/5224354917";
+      return "ca-app-pub-6000720254274281/9384662740";
     }
     else if (Platform.isIOS) {
-      return "ca-app-pub-3940256099942544/5135589807";
-     // return "ca-app-pub-8926875438170318/8761567947";
-    }
+      //test unit idss
+       return "ca-app-pub-6000720254274281/9478402173";
+      //return "ca-app-pub-3940256099942544/5135589807";
+     }
     else{
       throw UnsupportedError("Unsupported platform");
     }

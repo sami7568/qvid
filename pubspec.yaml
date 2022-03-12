@@ -24,18 +24,21 @@ dependencies:
   flutter_bloc: ^7.0.0
   animation_wrappers: ^0.0.4
   google_mobile_ads: ^1.1.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
 flutter:
 
   uses-material-design: true
   assets:
-    - assets/videos/
-    - assets/images/
     - assets/icons/
-    - assets/user/
+    - assets/icons/playstore.png
+    - assets/images/
     - assets/thumbnails/dance/
-    - assets/thumbnails/lol/
     - assets/thumbnails/food/
+    - assets/thumbnails/lol/
+    - assets/user/
+    - assets/videos/
